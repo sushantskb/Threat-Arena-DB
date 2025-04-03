@@ -21,6 +21,23 @@ const phaseSchema = new mongoose.Schema({
       },
     },
   ],
+
+  userProgress: [
+    {
+      userId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+      },
+      lastCompletedPhase: {
+        type: Number,
+        default: 0,
+      },
+      isCompleted: {
+        type: Boolean,
+        default: false,
+      },
+    },
+  ],
 });
 
 const Phase = mongoose.model("Phase", phaseSchema);

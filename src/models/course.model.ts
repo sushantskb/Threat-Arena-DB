@@ -46,6 +46,18 @@ const courseSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    enrolled: [
+      {
+        userId: {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "User",
+        },
+        progress: {
+          type: Number,
+          default: 0,
+        },
+      },
+    ],  
   },
   {
     timestamps: true,
