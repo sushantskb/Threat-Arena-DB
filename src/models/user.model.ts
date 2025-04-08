@@ -41,6 +41,9 @@ const userSchema = new mongoose.Schema(
       type: Number,
       default: 60,
     },
+    vouchers: {
+      type: Number,
+    },
     accountType: {
       type: String,
       default: "free",
