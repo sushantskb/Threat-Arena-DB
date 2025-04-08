@@ -4,10 +4,10 @@ declare const Course: mongoose.Model<{
     updatedAt: NativeDate;
 } & {
     type: "General" | "Offensive" | "Deffensive" | "Purple" | "Red";
-    content: string;
-    title: string;
     hours: number;
     courseImg: string;
+    title: string;
+    content: string;
     level: "Fundamental" | "Easy" | "Medium" | "Hard" | "Expert";
     tier: number;
     enrolled: mongoose.Types.DocumentArray<{
@@ -28,10 +28,10 @@ declare const Course: mongoose.Model<{
     updatedAt: NativeDate;
 } & {
     type: "General" | "Offensive" | "Deffensive" | "Purple" | "Red";
-    content: string;
-    title: string;
     hours: number;
     courseImg: string;
+    title: string;
+    content: string;
     level: "Fundamental" | "Easy" | "Medium" | "Hard" | "Expert";
     tier: number;
     enrolled: mongoose.Types.DocumentArray<{
@@ -52,10 +52,10 @@ declare const Course: mongoose.Model<{
     updatedAt: NativeDate;
 } & {
     type: "General" | "Offensive" | "Deffensive" | "Purple" | "Red";
-    content: string;
-    title: string;
     hours: number;
     courseImg: string;
+    title: string;
+    content: string;
     level: "Fundamental" | "Easy" | "Medium" | "Hard" | "Expert";
     tier: number;
     enrolled: mongoose.Types.DocumentArray<{
@@ -82,10 +82,10 @@ declare const Course: mongoose.Model<{
     updatedAt: NativeDate;
 } & {
     type: "General" | "Offensive" | "Deffensive" | "Purple" | "Red";
-    content: string;
-    title: string;
     hours: number;
     courseImg: string;
+    title: string;
+    content: string;
     level: "Fundamental" | "Easy" | "Medium" | "Hard" | "Expert";
     tier: number;
     enrolled: mongoose.Types.DocumentArray<{
@@ -106,10 +106,10 @@ declare const Course: mongoose.Model<{
     updatedAt: NativeDate;
 } & {
     type: "General" | "Offensive" | "Deffensive" | "Purple" | "Red";
-    content: string;
-    title: string;
     hours: number;
     courseImg: string;
+    title: string;
+    content: string;
     level: "Fundamental" | "Easy" | "Medium" | "Hard" | "Expert";
     tier: number;
     enrolled: mongoose.Types.DocumentArray<{
@@ -130,10 +130,10 @@ declare const Course: mongoose.Model<{
     updatedAt: NativeDate;
 } & {
     type: "General" | "Offensive" | "Deffensive" | "Purple" | "Red";
-    content: string;
-    title: string;
     hours: number;
     courseImg: string;
+    title: string;
+    content: string;
     level: "Fundamental" | "Easy" | "Medium" | "Hard" | "Expert";
     tier: number;
     enrolled: mongoose.Types.DocumentArray<{

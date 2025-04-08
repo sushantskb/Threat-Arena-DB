@@ -37,6 +37,17 @@ const userSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    coins: {
+      type: Number,
+      default: 60,
+    },
+    accountType: {
+      type: String,
+      default: "free",
+    },
+    subscription: {
+      type: String,
+    },
   },
   {
     timestamps: true,

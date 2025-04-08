@@ -6,13 +6,16 @@ declare const User: mongoose.Model<{
     email: string;
     isVerfied: boolean;
     isRegistered: boolean;
-    name?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
-    username?: string | null | undefined;
+    coins: number;
+    accountType: string;
     googleId?: string | null | undefined;
+    name?: string | null | undefined;
     password?: string | null | undefined;
+    username?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
+    subscription?: string | null | undefined;
 }, {}, {}, {}, mongoose.Document<unknown, {}, {
     createdAt: NativeDate;
     updatedAt: NativeDate;
@@ -20,13 +23,16 @@ declare const User: mongoose.Model<{
     email: string;
     isVerfied: boolean;
     isRegistered: boolean;
-    name?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
-    username?: string | null | undefined;
+    coins: number;
+    accountType: string;
     googleId?: string | null | undefined;
+    name?: string | null | undefined;
     password?: string | null | undefined;
+    username?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
+    subscription?: string | null | undefined;
 }> & {
     createdAt: NativeDate;
     updatedAt: NativeDate;
@@ -34,13 +40,16 @@ declare const User: mongoose.Model<{
     email: string;
     isVerfied: boolean;
     isRegistered: boolean;
-    name?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
-    username?: string | null | undefined;
+    coins: number;
+    accountType: string;
     googleId?: string | null | undefined;
+    name?: string | null | undefined;
     password?: string | null | undefined;
+    username?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
+    subscription?: string | null | undefined;
 } & {
     _id: mongoose.Types.ObjectId;
 } & {
@@ -54,13 +63,16 @@ declare const User: mongoose.Model<{
     email: string;
     isVerfied: boolean;
     isRegistered: boolean;
-    name?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
-    username?: string | null | undefined;
+    coins: number;
+    accountType: string;
     googleId?: string | null | undefined;
+    name?: string | null | undefined;
     password?: string | null | undefined;
+    username?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
+    subscription?: string | null | undefined;
 }, mongoose.Document<unknown, {}, mongoose.FlatRecord<{
     createdAt: NativeDate;
     updatedAt: NativeDate;
@@ -68,13 +80,16 @@ declare const User: mongoose.Model<{
     email: string;
     isVerfied: boolean;
     isRegistered: boolean;
-    name?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
-    username?: string | null | undefined;
+    coins: number;
+    accountType: string;
     googleId?: string | null | undefined;
+    name?: string | null | undefined;
     password?: string | null | undefined;
+    username?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
+    subscription?: string | null | undefined;
 }>> & mongoose.FlatRecord<{
     createdAt: NativeDate;
     updatedAt: NativeDate;
@@ -82,13 +97,16 @@ declare const User: mongoose.Model<{
     email: string;
     isVerfied: boolean;
     isRegistered: boolean;
-    name?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
-    username?: string | null | undefined;
+    coins: number;
+    accountType: string;
     googleId?: string | null | undefined;
+    name?: string | null | undefined;
     password?: string | null | undefined;
+    username?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
+    subscription?: string | null | undefined;
 }> & {
     _id: mongoose.Types.ObjectId;
 } & {
