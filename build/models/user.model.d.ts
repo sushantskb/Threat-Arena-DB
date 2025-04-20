@@ -8,13 +8,13 @@ declare const User: mongoose.Model<{
     isRegistered: boolean;
     coins: number;
     accountType: string;
-    googleId?: string | null | undefined;
     name?: string | null | undefined;
-    password?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
     username?: string | null | undefined;
+    googleId?: string | null | undefined;
+    password?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
     vouchers?: number | null | undefined;
     subscription?: string | null | undefined;
 }, {}, {}, {}, mongoose.Document<unknown, {}, {
@@ -26,13 +26,13 @@ declare const User: mongoose.Model<{
     isRegistered: boolean;
     coins: number;
     accountType: string;
-    googleId?: string | null | undefined;
     name?: string | null | undefined;
-    password?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
     username?: string | null | undefined;
+    googleId?: string | null | undefined;
+    password?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
     vouchers?: number | null | undefined;
     subscription?: string | null | undefined;
 }> & {
@@ -44,13 +44,13 @@ declare const User: mongoose.Model<{
     isRegistered: boolean;
     coins: number;
     accountType: string;
-    googleId?: string | null | undefined;
     name?: string | null | undefined;
-    password?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
     username?: string | null | undefined;
+    googleId?: string | null | undefined;
+    password?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
     vouchers?: number | null | undefined;
     subscription?: string | null | undefined;
 } & {
@@ -68,13 +68,13 @@ declare const User: mongoose.Model<{
     isRegistered: boolean;
     coins: number;
     accountType: string;
-    googleId?: string | null | undefined;
     name?: string | null | undefined;
-    password?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
     username?: string | null | undefined;
+    googleId?: string | null | undefined;
+    password?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
     vouchers?: number | null | undefined;
     subscription?: string | null | undefined;
 }, mongoose.Document<unknown, {}, mongoose.FlatRecord<{
@@ -86,13 +86,13 @@ declare const User: mongoose.Model<{
     isRegistered: boolean;
     coins: number;
     accountType: string;
-    googleId?: string | null | undefined;
     name?: string | null | undefined;
-    password?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
     username?: string | null | undefined;
+    googleId?: string | null | undefined;
+    password?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
     vouchers?: number | null | undefined;
     subscription?: string | null | undefined;
 }>> & mongoose.FlatRecord<{
@@ -104,13 +104,13 @@ declare const User: mongoose.Model<{
     isRegistered: boolean;
     coins: number;
     accountType: string;
-    googleId?: string | null | undefined;
     name?: string | null | undefined;
-    password?: string | null | undefined;
+    role?: "student" | "tutor" | "admin" | null | undefined;
     username?: string | null | undefined;
+    googleId?: string | null | undefined;
+    password?: string | null | undefined;
     avatar?: string | null | undefined;
     gender?: string | null | undefined;
-    role?: "student" | "tutor" | "admin" | null | undefined;
     vouchers?: number | null | undefined;
     subscription?: string | null | undefined;
 }> & {
