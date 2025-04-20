@@ -49,7 +49,7 @@ const courseSchema = new mongoose.Schema(
     coins: {
       type: Number,
       default: 0
-    }
+    },
     enrolled: [
       {
         userId: {
