@@ -14,10 +14,6 @@ const courseSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    phases: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Phase",
-    },
     sections: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Section",
