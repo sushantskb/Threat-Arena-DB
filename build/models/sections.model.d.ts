@@ -10,8 +10,16 @@ declare const Section: mongoose.Model<{
         isCompleted: boolean;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    content: string;
-    title: string;
+    sections: mongoose.Types.DocumentArray<{
+        content: string;
+        title: string;
+    }, mongoose.Types.Subdocument<mongoose.Types.ObjectId, any, {
+        content: string;
+        title: string;
+    }> & {
+        content: string;
+        title: string;
+    }>;
     courseId?: mongoose.Types.ObjectId | null | undefined;
 }, {}, {}, {}, mongoose.Document<unknown, {}, {
     progress: mongoose.Types.DocumentArray<{
@@ -24,8 +32,16 @@ declare const Section: mongoose.Model<{
         isCompleted: boolean;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    content: string;
-    title: string;
+    sections: mongoose.Types.DocumentArray<{
+        content: string;
+        title: string;
+    }, mongoose.Types.Subdocument<mongoose.Types.ObjectId, any, {
+        content: string;
+        title: string;
+    }> & {
+        content: string;
+        title: string;
+    }>;
     courseId?: mongoose.Types.ObjectId | null | undefined;
 }> & {
     progress: mongoose.Types.DocumentArray<{
@@ -38,8 +54,16 @@ declare const Section: mongoose.Model<{
         isCompleted: boolean;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    content: string;
-    title: string;
+    sections: mongoose.Types.DocumentArray<{
+        content: string;
+        title: string;
+    }, mongoose.Types.Subdocument<mongoose.Types.ObjectId, any, {
+        content: string;
+        title: string;
+    }> & {
+        content: string;
+        title: string;
+    }>;
     courseId?: mongoose.Types.ObjectId | null | undefined;
 } & {
     _id: mongoose.Types.ObjectId;
@@ -56,8 +80,16 @@ declare const Section: mongoose.Model<{
         isCompleted: boolean;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    content: string;
-    title: string;
+    sections: mongoose.Types.DocumentArray<{
+        content: string;
+        title: string;
+    }, mongoose.Types.Subdocument<mongoose.Types.ObjectId, any, {
+        content: string;
+        title: string;
+    }> & {
+        content: string;
+        title: string;
+    }>;
     courseId?: mongoose.Types.ObjectId | null | undefined;
 }, mongoose.Document<unknown, {}, mongoose.FlatRecord<{
     progress: mongoose.Types.DocumentArray<{
@@ -70,8 +102,16 @@ declare const Section: mongoose.Model<{
         isCompleted: boolean;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    content: string;
-    title: string;
+    sections: mongoose.Types.DocumentArray<{
+        content: string;
+        title: string;
+    }, mongoose.Types.Subdocument<mongoose.Types.ObjectId, any, {
+        content: string;
+        title: string;
+    }> & {
+        content: string;
+        title: string;
+    }>;
     courseId?: mongoose.Types.ObjectId | null | undefined;
 }>> & mongoose.FlatRecord<{
     progress: mongoose.Types.DocumentArray<{
@@ -84,8 +124,16 @@ declare const Section: mongoose.Model<{
         isCompleted: boolean;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    content: string;
-    title: string;
+    sections: mongoose.Types.DocumentArray<{
+        content: string;
+        title: string;
+    }, mongoose.Types.Subdocument<mongoose.Types.ObjectId, any, {
+        content: string;
+        title: string;
+    }> & {
+        content: string;
+        title: string;
+    }>;
     courseId?: mongoose.Types.ObjectId | null | undefined;
 }> & {
     _id: mongoose.Types.ObjectId;
