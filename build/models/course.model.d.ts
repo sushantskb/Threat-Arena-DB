@@ -21,7 +21,6 @@ declare const Course: mongoose.Model<{
         progress: number;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    phases?: mongoose.Types.ObjectId | null | undefined;
     sections?: mongoose.Types.ObjectId | null | undefined;
     exercises?: mongoose.Types.ObjectId | null | undefined;
 }, {}, {}, {}, mongoose.Document<unknown, {}, {
@@ -46,7 +45,6 @@ declare const Course: mongoose.Model<{
         progress: number;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    phases?: mongoose.Types.ObjectId | null | undefined;
     sections?: mongoose.Types.ObjectId | null | undefined;
     exercises?: mongoose.Types.ObjectId | null | undefined;
 }> & {
@@ -71,7 +69,6 @@ declare const Course: mongoose.Model<{
         progress: number;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    phases?: mongoose.Types.ObjectId | null | undefined;
     sections?: mongoose.Types.ObjectId | null | undefined;
     exercises?: mongoose.Types.ObjectId | null | undefined;
 } & {
@@ -102,7 +99,6 @@ declare const Course: mongoose.Model<{
         progress: number;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    phases?: mongoose.Types.ObjectId | null | undefined;
     sections?: mongoose.Types.ObjectId | null | undefined;
     exercises?: mongoose.Types.ObjectId | null | undefined;
 }, mongoose.Document<unknown, {}, mongoose.FlatRecord<{
@@ -127,7 +123,6 @@ declare const Course: mongoose.Model<{
         progress: number;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    phases?: mongoose.Types.ObjectId | null | undefined;
     sections?: mongoose.Types.ObjectId | null | undefined;
     exercises?: mongoose.Types.ObjectId | null | undefined;
 }>> & mongoose.FlatRecord<{
@@ -152,7 +147,6 @@ declare const Course: mongoose.Model<{
         progress: number;
         userId?: mongoose.Types.ObjectId | null | undefined;
     }>;
-    phases?: mongoose.Types.ObjectId | null | undefined;
     sections?: mongoose.Types.ObjectId | null | undefined;
     exercises?: mongoose.Types.ObjectId | null | undefined;
 }> & {
